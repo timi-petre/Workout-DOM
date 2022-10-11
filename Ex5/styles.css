@@ -189,10 +189,12 @@ a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 20px;
 }
 
 a:hover,
 a:active {
   background-color: green;
   color: white;
+
 }
