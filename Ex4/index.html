@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Exercise 4</title>
+  </head>
+
+  <body>
+    <div class="menu">
+      <header>
+        <h1>Formular</h1>
+        <p class="test-dupa"></p>
+      </header>
+
+      <hr>
+      <main>
+        <section>
+          <h2>Credentials</h2>
+          <form class="survey-form" action="/Workout-DOM/Ex5/index.html">
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name..." required>
+            </div>
+
+            <div class="form-group">
+              <p>Din ce localitate esti?</p>
+              <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select current role</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Brasov">Brasov</option>
+                <option value="Buzau">Buzau</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <p>Iti plac pisicile?</p>
+              <label>
+                <input name="user-recommend" value="desigur" type="radio" class="input-radio"
+                  id="desigur">Desigur</label>
+              <label>
+                <input name="user-recommend" value="deloc" type="radio" class="input-radio" id="deloc">Deloc</label>
+            </div>
+
+            <div class="group">
+              <div class="form-group">
+                <button type="button" id="check" class="executa-button">
+                  Submit
+                </button>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" id="goto" class="submit-button">
+                  Next Page
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <div class="form-group">
+      <img src="pisica.png" alt="Pisica" class="imagine">
+    </div>
+
+  </body>
+
+</html>

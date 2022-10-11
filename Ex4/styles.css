@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(imageb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1,
+h2,
+p,
+.form-group {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: blue;
+  border-color: blue;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.survey-form p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.imagine {
+  max-width: 20%;
+}
+
+.group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit-button {
+  border-radius: 20px;
+  background-color: antiquewhite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+
+.executa-button {
+  border-radius: 20px;
+  background-color: antiquewhite;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

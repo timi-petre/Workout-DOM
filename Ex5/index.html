@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Exercise 5</title>
+  </head>
+
+  <body>
+    <div class="menu">
+      <a href="/Workout-DOM/Ex5/index.html"> Back</a>
+      <header>
+        <h1>Formular Nou</h1>
+        <p class="test-dupa"></p>
+      </header>
+
+      <hr>
+      <main>
+        <section>
+          <h2>Credentials</h2>
+          <div class="survey-form">
+
+            <div class="form-group">
+              <label for="name">What's your name?</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="dropdown">
+                Din ce localitate esti?
+              </label>
+              <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select current role</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Brasov">Brasov</option>
+                <option value="Buzau">Buzau</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>
+                Iti plac pisicile?
+              </label>
+              <label>
+                <input name="user-recommend" value="desigur" type="radio" class="input-radio" id="desigur"
+                  checked>Desigur</label>
+              <label>
+                <input name="user-recommend" value="deloc" type="radio" class="input-radio" id="deloc">Deloc</label>
+            </div>
+
+            <div class="form-group">
+              <label>
+                Doresti sa aflii cat este ceasul?
+              </label>
+              <label class="switch">
+                <input type="checkbox" class="input-checkbox" id="da">
+                <span class="slider round"></span>
+              </label>
+              <p id="time"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="myDate" class="data">Care este varsta ta?
+                <input type="date" id="myDate"></label>
+              <button onclick="calcAge()">Get age</button><br>
+              <p id="showEl"></p>
+            </div>
+
+
+            <div class="form-group">
+              <button type="submit" id="check" class="submit-button">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="form-group">
+      <img src="pisica.png" alt="Pisica" class="imagine">
+    </div>
+
+  </body>
+
+</html>
